@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/presentation": "pages/presentation.js",
-  "/": "pages/index.js",
-  "/articles/duree-ideale": "pages/articles/duree-ideale.js"
+  "/avis": "pages/avis.js"
 }

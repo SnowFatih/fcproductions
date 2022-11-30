@@ -83,7 +83,7 @@ function MobileNavigation(props) {
   return (
     <Popover {...props}>
       <Popover.Button className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20">
-        Menu
+        Accueil
         <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" />
       </Popover.Button>
       <Transition.Root>
@@ -123,9 +123,9 @@ function MobileNavigation(props) {
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/presentation">Présentation</MobileNavItem>
                 <MobileNavItem href="/projets">Projets</MobileNavItem>
+                <MobileNavItem href="/avis">Avis Clients</MobileNavItem>
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-                <MobileNavItem href="/uses">Uses</MobileNavItem>
+                <MobileNavItem href="/contact">Contact</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -164,8 +164,8 @@ function DesktopNavigation(props) {
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/presentation">Présentation</NavItem>
         <NavItem href="/projets">Projets</NavItem>
+        <NavItem href="/avis">Avis Clients</NavItem>
         <NavItem href="/articles">Articles</NavItem>
-        <NavItem href="/speaking">Speaking</NavItem>
         <NavItem href="/contact">Contact</NavItem>
       </ul>
     </nav>
@@ -401,7 +401,7 @@ export function Header() {
             className="top-[var(--header-top,theme(spacing.6))] w-full"
             style={{ position: 'var(--header-inner-position)' }}
           >
-            <div className="relative flex gap-4">
+            <div className="relative flex md:block gap-4">
               <div className="flex flex-1">
                 {!isHomePage && (
                   <AvatarContainer>
