@@ -3,7 +3,6 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import { Forms } from '@/components/ContactForms'
 
 
 export default function Contact() {
@@ -22,13 +21,7 @@ export default function Contact() {
       >
         
       </SimpleLayout>
-      <Forms 
-        title="lol" 
-        description="zefz" 
-        adress="dded" 
-        phoneNumber="zefzef" 
-        eMail="zfzef"
-      ></Forms>
+
     </>
   )
 }
