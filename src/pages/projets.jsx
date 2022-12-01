@@ -11,7 +11,6 @@ import miniaFesticulute from '@/images/miniatures/festiculture.jpeg'
 import miniaCarsamba from '@/images/miniatures/carsamba.jpeg'
 import miniaMoanakite from '@/images/miniatures/moanakite.jpeg'
 
-import { Reviews } from '@/components/Reviews'
 
 const projects = [
   {

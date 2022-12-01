@@ -66,11 +66,11 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                J'ai commencé la vidéographie ainsi que photographie très jeune dans l'événementiel avec <strong>@IZPhotoVideo</strong>. Ce qui m'a 
+                Moi, c'est Fatih C. ! J'ai commencé la <strong>vidéographie</strong> ainsi que <strong>photographie</strong> très jeune dans l'événementiel avec <strong>@IZPhotoVideo</strong>. Ce qui m'a 
                 permit d'avoir des bases rapidement ainsi que du temps pour perfectionner mes connaissances.
               </p>
               <p>
-                Je me suis penché plus dans la vidéographie et trouvé une passion dans le drone.
+                Je me suis penché plus dans la vidéographie et trouvé une <strong>passion</strong> dans le drone.
                 Soif de sensation plus poussée, le FPV m'a vite attiré l'oeil !
               </p>
               <p>
