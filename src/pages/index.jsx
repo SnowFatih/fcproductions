@@ -5,20 +5,33 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
-import { Reviews } from '@/components/Reviews'
 import { Container } from '@/components/Container'
 import {
   InstagramIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
+
 import image1 from '@/images/photos/IMG_7694.JPG'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/IMG_0589.jpg'
 import image4 from '@/images/photos/IMG_5793.jpg'
 import image5 from '@/images/photos/IMG_9008.jpg'
+
+import logoOpera from '@/images/logos/logoopera.png'
+import logoOperaNoir from '@/images/logos/logooperanoir.png'
+import logoEva from '@/images/logos/logoEva.png'
+import logoEvaNoir from '@/images/logos/logoEvaNoir.png'
+import logoFesti from '@/images/logos/logofesti.png'
+import logoOsny from '@/images/logos/logoOsny.png'
+import logoOsnyNoir from '@/images/logos/logoOsnyNoir.png'
+import logoCapitole from '@/images/logos/logocapitole.png'
+import logoCapitoleNoir from '@/images/logos/logocapitoleNoir.png'
+import logoRlocation from '@/images/logos/logoRlocation.png'
+
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
+
 
 function MailIcon(props) {
   return (
@@ -265,7 +278,7 @@ export default function Home({ articles }) {
           <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
             Nous vous accompagnons dans vos plus folles productions !
           </p>
-          <div className="mt-6 flex gap-6">
+          <div className="mt-6 flex gap-6 justify-center">
             <SocialLink
               href="https://www.instagram.com/fcproductions55/"
               target="_blank"
@@ -280,9 +293,44 @@ export default function Home({ articles }) {
             />
           </div>
         </div>
-      </Container>
-      <Photos />
+        </Container>
+
+          <div className="relative w-full md:block flex gap-5 pl-5 pr-5 snap-x snap-mandatory overflow-x-auto pb-14">
+          <Photos />
+          </div>
       
+
+
+      <h1 className="text-center mt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+      Merci pour leur confiance.
+      </h1>
+
+      <Container>
+        <div className="hidden dark:block">
+          <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
+                <Image src={logoOpera} alt="logo du grand opéra avignon" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110" />
+                <Image src={logoEva} alt="logo de eva en réalité virtuelle" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoOsny} alt="logo du club bmx de osny" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoCapitole} alt="logo du capitole studios" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </div>
+        </div>
+        <div className="dark:hidden block">
+          <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
+                <Image src={logoOperaNoir} alt="logo du grand opéra avignon" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110" />
+                <Image src={logoEvaNoir} alt="logo de eva en réalité virtuelle" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoOsnyNoir} alt="logo du club bmx de osny" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+                <Image src={logoCapitoleNoir} alt="logo du capitole studios" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </div>
+        </div>
+      </Container>
+      <h1 className="text-center mb-5 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 opacity-80 italic">
+      et encore bien d'autres..
+      </h1>
+
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
@@ -293,10 +341,11 @@ export default function Home({ articles }) {
 
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
+            
             {/* <Resume /> */}
           </div>
-
         </div>
+        
       </Container>
 
     </>

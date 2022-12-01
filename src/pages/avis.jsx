@@ -11,8 +11,6 @@ import miniaFesticulute from '@/images/miniatures/festiculture.jpeg'
 import miniaCarsamba from '@/images/miniatures/carsamba.jpeg'
 import miniaMoanakite from '@/images/miniatures/moanakite.jpeg'
 
-import { Reviews } from '@/components/Reviews'
-
 
 
 export default function Avis() {
@@ -31,7 +29,6 @@ export default function Avis() {
         intro="J'ai travaillé avec plusieurs types de clients. Retrouvez ci-dessous les avis (réelles) dece qu'ils avaient à dire sur mes prestations !"
         >
         
-        <Reviews />
 
       </SimpleLayout>
     </>
