@@ -13,7 +13,7 @@ import {
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/photos/IMG_7694.jpg'
 
-function SocialLink({ className, href, children, icon: Icon }) {
+export function SocialLink({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, 'flex')}>
       <Link

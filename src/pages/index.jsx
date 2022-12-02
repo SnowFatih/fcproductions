@@ -18,14 +18,10 @@ import image4 from '@/images/photos/IMG_5793.jpg'
 import image5 from '@/images/photos/IMG_9008.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
-import logoOperaNoir from '@/images/logos/logooperanoir.png'
 import logoEva from '@/images/logos/logoEva.png'
-import logoEvaNoir from '@/images/logos/logoEvaNoir.png'
 import logoFesti from '@/images/logos/logofesti.png'
 import logoOsny from '@/images/logos/logoOsny.png'
-import logoOsnyNoir from '@/images/logos/logoOsnyNoir.png'
 import logoCapitole from '@/images/logos/logocapitole.png'
-import logoCapitoleNoir from '@/images/logos/logocapitoleNoir.png'
 import logoRlocation from '@/images/logos/logoRlocation.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -107,10 +103,10 @@ function Article({ article }) {
   )
 }
 
-function SocialLink({ icon: Icon, ...props }) {
+export function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 transition group-hover:fill-teal-500 dark:fill-zinc-200 dark:group-hover:fill-teal-500" />
     </Link>
   )
 }
@@ -278,12 +274,13 @@ export default function Home({ articles }) {
           <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
             Nous vous accompagnons dans vos plus folles productions !
           </p>
-          <div className="mt-6 flex gap-6 justify-center">
+          <div className=" mt-6 flex gap-6 justify-center">
             <SocialLink
               href="https://www.instagram.com/fcproductions55/"
               target="_blank"
               aria-label="Suivez moi sur Instagram"
               icon={InstagramIcon}
+
             />
             <SocialLink
               href="https://www.youtube.com/channel/UC-YvVhHlBAH6UOezaihTK9A"
@@ -306,30 +303,34 @@ export default function Home({ articles }) {
       </h1>
 
       <Container>
-        <div className="hidden dark:block">
-          <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
-                <Image src={logoOpera} alt="logo du grand opéra avignon" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110" />
-                <Image src={logoEva} alt="logo de eva en réalité virtuelle" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+
+          
+            <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
+              <a href="avis/#operagrandavignon">
+                <Image src={logoOpera} alt="logo du grand opéra avignon" className=" dark:invert-0 invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
+              </a>
+              <a href="avis/#eva">
+                <Image src={logoEva} alt="logo de eva en réalité virtuelle" className=" dark:invert-0 invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+              </a> 
+              <a href="avis/#festiculture">
                 <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoOsny} alt="logo du club bmx de osny" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+              </a>  
+              <a href="avis">
+                <Image src={logoOsny} alt="logo du club bmx de osny" className=" dark:invert-0 invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+              </a>  
+              <a href="avis/#ronelocation">
                 <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoCapitole} alt="logo du capitole studios" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </div>
-        </div>
-        <div className="dark:hidden block">
-          <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
-                <Image src={logoOperaNoir} alt="logo du grand opéra avignon" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110" />
-                <Image src={logoEvaNoir} alt="logo de eva en réalité virtuelle" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoOsnyNoir} alt="logo du club bmx de osny" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-                <Image src={logoCapitoleNoir} alt="logo du capitole studios" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </div>
-        </div>
+              </a>  
+              <a href="avis/#capitolestudios">
+                <Image src={logoCapitole} alt="logo du capitole studios" className=" dark:invert-0 invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+              </a>
+            </div>
+
+
       </Container>
-      <h1 className="text-center mb-5 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 opacity-80 italic">
-      et encore bien d'autres..
-      </h1>
+      <a href="avis" className="justify-center flex mb-5 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 opacity-80 italic">
+      et encore bien d'autres.. Cliquez pour lire leur avis !
+      </a>
 
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
