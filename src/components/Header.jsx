@@ -4,9 +4,15 @@ import { useRouter } from 'next/router'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
+import {
+  InstagramIcon,
+  YoutubeIcon,
+} from '@/components/SocialIcons'
+
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 import { Fragment, useEffect, useRef } from 'react'
+import { SocialLink } from '@/pages'
 
 function CloseIcon(props) {
   return (
@@ -128,6 +134,20 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/contact">Contact</MobileNavItem>
               </ul>
             </nav>
+            <div className="gap-2 flex place-content-end">
+              <SocialLink
+                href="https://www.instagram.com/fcproductions55/"
+                target="_blank"
+                aria-label="Suivez moi sur Instagram"
+                icon={InstagramIcon}
+              />
+                          <SocialLink
+                href="https://www.youtube.com/channel/UC-YvVhHlBAH6UOezaihTK9A"
+                target="_blank"
+                aria-label="Suivez moi sur Youtube"
+                icon={YoutubeIcon}
+              />
+            </div>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -167,6 +187,21 @@ function DesktopNavigation(props) {
         <NavItem href="/avis">Avis Clients</NavItem>
         <NavItem href="/articles">Articles</NavItem>
         <NavItem href="/contact">Contact</NavItem>
+        <div className="gap-2 mr-2 flex items-center">
+          -
+              <SocialLink
+                href="https://www.instagram.com/fcproductions55/"
+                target="_blank"
+                aria-label="Suivez moi sur Instagram"
+                icon={InstagramIcon}
+              />
+                          <SocialLink
+                href="https://www.youtube.com/channel/UC-YvVhHlBAH6UOezaihTK9A"
+                target="_blank"
+                aria-label="Suivez moi sur Youtube"
+                icon={YoutubeIcon}
+              />
+            </div>
       </ul>
     </nav>
   )
