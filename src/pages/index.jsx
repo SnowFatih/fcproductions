@@ -11,7 +11,7 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/IMG_7694.JPG'
+import image1 from '@/images/photos/IMG_7694.jpg'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/IMG_0589.jpg'
 import image4 from '@/images/photos/IMG_5793.jpg'
@@ -226,10 +226,11 @@ function Newsletter() {
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
+  const images = [image1, image2, image3, image4, image5];
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {images.map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
