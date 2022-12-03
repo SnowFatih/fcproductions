@@ -1,0 +1,22 @@
+name: Deploy To Surge
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: yarn
+      - run: yarn build-export
+      - run: npx surge ./out --token {{TOKEN}}
+        env:
+          TOKEN: ${{ secrets.SURGE_TOKEN }}
+
