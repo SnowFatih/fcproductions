@@ -15,7 +15,7 @@ import image1 from '@/images/photos/IMG_7694.JPG'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/IMG_0589.jpg'
 import image4 from '@/images/photos/IMG_5793.jpg'
-import image5 from '@/images/photos/IMG_9008.jpg'
+import image5 from '@/images/photos/image4501.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
 import logoEva from '@/images/logos/logoEva.png'
@@ -272,7 +272,10 @@ export default function Home({ articles }) {
             Vidéaste - Télépilote Drone FPV
           </p>
           <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
-            Nous vous accompagnons dans vos plus folles productions !
+            Nous vous accompagnons dans vos plus folles 
+          </p>
+          <p className="text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
+          productions dans toute la France !
           </p>
           <div className=" mt-6 flex gap-6 justify-center">
             <SocialLink
