@@ -11,10 +11,10 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/IMG_7694.jpg'
+import image4 from '@/images/photos/IMG_7694.jpg'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/IMG_0589.jpg'
-import image4 from '@/images/photos/IMG_5793.jpg'
+import image1 from '@/images/photos/IMG_5793.jpg'
 import image5 from '@/images/photos/image4501.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
