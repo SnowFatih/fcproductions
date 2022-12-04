@@ -175,7 +175,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>FC Productions</title>
-        <link rel="shortcut icon" type="image/ico" href="http://fcprods55.surge.sh/favicon.ico"/>
+        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
         <meta
           name="description"
           content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions dans toute la France !"
