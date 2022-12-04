@@ -18,8 +18,8 @@ export async function generateRssFeed() {
     author,
     id: siteUrl,
     link: siteUrl,
-    image: `https://fcprods55.surge.sh/favicon.ico`,
-    favicon: `https://fcprods55.surge.sh/favicon.ico`,
+    image: `http://www.redditstatic.com/favicon.ico`,
+    favicon: `http://www.redditstatic.com/favicon.ico`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     feedLinks: {
       rss2: `${siteUrl}/rss/feed.xml`,
