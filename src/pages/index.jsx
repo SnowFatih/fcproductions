@@ -11,10 +11,10 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image4 from '@/images/photos/IMG_7694.jpg'
+import image1 from '@/images/photos/IMG_7694.jpg'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/IMG_0589.jpg'
-import image1 from '@/images/photos/IMG_5793.jpg'
+import image4 from '@/images/photos/IMG_5793.jpg'
 import image5 from '@/images/photos/image4501.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
@@ -177,7 +177,7 @@ export default function Home({ articles }) {
         <title>FC Productions</title>
         <meta
           name="description"
-          content="Vidéaste et télépilote de drone FPV ! Nous vous accompagnons dans vos plus folles productions dans toute la France !"
+          content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions dans toute la France !"
         />
       </Head>
       
