@@ -12,7 +12,7 @@ export default function Contact() {
         <title>FC - Contact</title>
         <meta
           name="description"
-          content="Formulaire de contact pour vidéaste, droniste fpv"
+          content="Formulaire de contact pour FC PRODUCTIONS"
         />
       </Head>
 
