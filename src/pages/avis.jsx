@@ -46,7 +46,7 @@ export default function Avis() {
         <title>FC - Avis Clients</title>
         <meta
           name="description"
-          content="Les avis de mes clients"
+          content="Les avis de mes clients."
         />
       </Head>
     
