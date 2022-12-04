@@ -44,6 +44,7 @@ export default function Avis() {
     <>
       <Head>
         <title>FC - Avis Clients</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Les avis de mes clients."

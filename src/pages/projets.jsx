@@ -80,6 +80,7 @@ export default function Projects() {
     <>
       <Head>
         <title>FC - Projets</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Mes dernières productions"

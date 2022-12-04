@@ -43,6 +43,7 @@ export default function About() {
     <>
       <Head>
         <title>FC - Présentation</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="FC Productions, vidéaste et droniste sur Paris et toute la France"

@@ -29,7 +29,8 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Uses - FC PROD</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."

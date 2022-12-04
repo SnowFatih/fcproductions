@@ -39,6 +39,7 @@ export default function ArticlesIndex({ articles }) {
     <>
       <Head>
         <title>FC - Articles</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Des articles concernant les productions de ma page."

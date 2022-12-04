@@ -10,6 +10,7 @@ export default function Contact() {
     <>
       <Head>
         <title>FC - Contact</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Formulaire de contact pour FC PRODUCTIONS"

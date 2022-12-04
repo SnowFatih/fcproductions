@@ -14,6 +14,7 @@ export default function ThankYou() {
 
       <Head>
         <title>Message envoyé ! - FC</title>
+        <link rel="icon" href="favicon.ico"/>
         <meta
           name="description"
           content="Merci pour votre envoi."
