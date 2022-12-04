@@ -3,13 +3,13 @@
     <channel>
         <title>FC Productions</title>
         <link>undefined</link>
-        <description>Your blog description</description>
-        <lastBuildDate>Sun, 04 Dec 2022 16:25:01 GMT</lastBuildDate>
+        <description>FC Productions, videaste droniste FPV en France</description>
+        <lastBuildDate>Sun, 04 Dec 2022 16:32:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>FC Productions</title>
-            <url>undefined/favicon.ico</url>
+            <url>https://fcprods55.surge.sh/favicon.ico</url>
             <link>undefined</link>
         </image>
         <copyright>All rights reserved 2022</copyright>
