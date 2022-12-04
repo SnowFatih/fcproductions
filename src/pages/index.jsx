@@ -22,7 +22,7 @@ import logoEva from '@/images/photos/image4501.jpg'
 import logoFesti from '@/images/logos/logofesti.png'
 import logoOsny from '@/images/photos/image4501.jpg'
 import logoCapitole from '@/images/logos/logocapitole.png'
-import logoRlocation from '@/images/logos/logoRlocation.png'
+import logoRlocation from '@/images/photos/image4501.jpg'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
