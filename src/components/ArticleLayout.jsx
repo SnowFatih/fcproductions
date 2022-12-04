@@ -34,7 +34,7 @@ export function ArticleLayout({
     <>
       <Head>
         <title>{`${meta.title} - FC Productions`}</title>
-        <link rel="icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
         <meta name="description" content={meta.description} />
       </Head>
       <Container className="mt-16 lg:mt-32">

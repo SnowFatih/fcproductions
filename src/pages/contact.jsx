@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <Head>
         <title>FC - Contact</title>
-        <link rel="icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
         <meta
           name="description"
           content="Formulaire de contact pour FC PRODUCTIONS"

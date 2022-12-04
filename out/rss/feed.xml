@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Spencer Sharp</title>
+        <title>FC Productions</title>
         <link>undefined</link>
         <description>Your blog description</description>
-        <lastBuildDate>Sun, 04 Dec 2022 09:45:11 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Dec 2022 16:16:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>Spencer Sharp</title>
+            <title>FC Productions</title>
             <url>undefined/favicon.ico</url>
             <link>undefined</link>
         </image>
@@ -54,7 +54,7 @@ On peut obtenir des images <strong>plus calmes</strong> permettant de mieux appr
 <strong><p>Donc voilà ! Là vous savez les grandes différences entre un FPV et un drone
 stabilisé. Pas d&#x27;inquétude, on utilise les deux chez FC Productions pour
 répondre à tous les beoins :D</p></strong>]]></content:encoded>
-            <author>spencer@planetaria.tech (Spencer Sharp)</author>
+            <author>contact@fcproductions.fr (FC Productions)</author>
         </item>
         <item>
             <title><![CDATA[La durée idéale pour ma vidéo]]></title>
@@ -85,7 +85,7 @@ Cela veut aussi dire qu’il sera plus difficile pour vous de sortir du lot, c&#
 <p>Dans la plupart des cas, le spectateur n’a pas besoin de connaître toute votre offre dans le détail. Il suffit de lui donner goût pour ensuite le rediriger vers justement votre projet.</p>
 <p>Il faudra faire le <strong>tri dans les informations à présenter</strong>, prendre l&#x27;<strong>essentiel</strong> et le plus <strong>important</strong>. Cela fait partie de mon job : prendre le nécessaire sur ce qu’il faut présenter en priorité.</p>
 <p>Dans mon cas de production, <strong>je me dirige souvent au format moyen pour une vidéo à rendre à un client et format réel pour le contenus de ma page</strong>.</p>]]></content:encoded>
-            <author>spencer@planetaria.tech (Spencer Sharp)</author>
+            <author>contact@fcproductions.fr (FC Productions)</author>
         </item>
         <item>
             <title><![CDATA[Déroulement d'un tournage]]></title>
@@ -139,7 +139,7 @@ Puis, une fois cette étape terminée, arrive les<strong> effets spéciaux</stro
 <p>Je possède également des <strong>ressources de luts payantes</strong> me facilitant le travail tout en restant performant.</p>
 <strong><p>Et voilà, à la fin j&#x27;obtiens une vidéo bien étalonné avec des jolies couleurs
 qui claquent.</p></strong>]]></content:encoded>
-            <author>spencer@planetaria.tech (Spencer Sharp)</author>
+            <author>contact@fcproductions.fr (FC Productions)</author>
         </item>
     </channel>
 </rss>

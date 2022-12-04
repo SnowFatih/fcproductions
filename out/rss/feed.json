@@ -1,11 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Spencer Sharp",
+    "title": "FC Productions",
     "feed_url": "undefined/rss/feed.json",
     "description": "Your blog description",
     "icon": "undefined/favicon.ico",
     "author": {
-        "name": "Spencer Sharp"
+        "name": "FC Productions"
     },
     "items": [
         {
@@ -16,7 +16,7 @@
             "summary": "Voyons ensemble les différences majeures entre les deux types de drone que j'utilise: FPV & classique. Les deux drones permettent d'avoir des vidéos aériennes mais complètement différente l'une de l'autre.",
             "date_modified": "2022-11-12T00:00:00.000Z",
             "author": {
-                "name": "Spencer Sharp"
+                "name": "FC Productions"
             }
         },
         {
@@ -27,7 +27,7 @@
             "summary": "Une vidéo peut durée entre 5 et 3943 secondes, c'est pourquoi des formats sont mit en place pour justement faire son choix et ne pas ennuyer le spectateur pour le maintenir le maximum possible.",
             "date_modified": "2022-11-12T00:00:00.000Z",
             "author": {
-                "name": "Spencer Sharp"
+                "name": "FC Productions"
             }
         },
         {
@@ -38,7 +38,7 @@
             "summary": "Je vous explique le déroulement d'un tournage de A à Z. En passant des demandes du client, de la conception jusqu'à la vidéo rendue avec le post production ect...",
             "date_modified": "2022-11-08T00:00:00.000Z",
             "author": {
-                "name": "Spencer Sharp"
+                "name": "FC Productions"
             }
         }
     ]
