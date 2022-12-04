@@ -1,29 +1,29 @@
-# name: Deploy To Surge
+name: Deploy To Surge
 
-# on:
-#   push:
-#     branches:
-#       - master
+on:
+  push:
+    branches:
+      - master
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Fetching repository
-#         uses: actions/checkout@v1
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching repository
+        uses: actions/checkout@v1
 
-#       - name: Setup node
-#         uses: actions/setup-node@v1
-#         with:
-#           node-version: 16
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
 
-#       - name: Install dependencies
-#         run: yarn install --immutable --immutable-cache --check-cache
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
 
-#       - name: Building out directory
-#         run: yarn build-export
+      - name: Building out directory
+        run: yarn build-export
 
-#       - name: Publish to surge
-#         run: npx surge ./out --token {{TOKEN}}
-#         env:
-#           TOKEN: ${{ secrets.SURGE_TOKEN }}
+      - name: Publish to surge
+        run: npx surge ./out --token {{TOKEN}}
+        env:
+          TOKEN: ${{ secrets.SURGE_TOKEN }}
