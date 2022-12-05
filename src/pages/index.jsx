@@ -15,7 +15,7 @@ import image1 from '@/images/photos/image4501.jpg'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/presta-fpv.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
-import image5 from '@/images/photos/image4501.jpg'
+import image5 from '@/images/photos/camera-capitole.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
 import logoEva from '@/images/logos/logoeva.png'
