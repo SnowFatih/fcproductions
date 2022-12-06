@@ -80,7 +80,7 @@ export default function Projects() {
     <>
       <Head>
         <title>FC - Projets</title>
-        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"
           content="Mes dernières productions"

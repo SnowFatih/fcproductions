@@ -30,7 +30,7 @@ export default function Uses() {
     <>
       <Head>
         <title>Uses - FC PROD</title>
-        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."

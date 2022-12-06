@@ -14,7 +14,7 @@ export default function ThankYou() {
 
       <Head>
         <title>Message envoyé ! - FC</title>
-        <link rel="shortcut icon" href="https://fcprods55.surge.sh/favicon.ico" type="image/x-icon" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"
           content="Merci pour votre envoi."
