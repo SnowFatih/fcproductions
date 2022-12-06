@@ -186,7 +186,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            FC PRODUCTIONS
+            FC PRODUCTIONS - LE BON SITE A UTILISER POUR LE FCPROD.FR
           </h1>
           <p className="text-base text-zinc-800 dark:text-zinc-100 text-lg animate-pulse">
             Vidéaste - Télépilote Drone FPV
