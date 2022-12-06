@@ -11,7 +11,7 @@ import {
   LinkedInIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/photos/image4501.jpg'
+import portraitImage from '@/images/photos/tango.jpg'
 
 export function SocialLink({ className, href, children, icon: Icon }) {
   return (

@@ -31,7 +31,7 @@ export default function ThankYou() {
         </p>
         </div>
         <div className="mb-10 mr-10 flex justify-end">
-          <a href="http://localhost:3001/">
+          <a href=" /">
             <p className="flex items-center text-base text-zinc-600 dark:text-zinc-400 gap-2 transition duration-300 ease-in-out hover:-translate-x-4">
               Retour à l'accueil
               <ArrowUturnLeftIcon className=" h-8 w-8" />
