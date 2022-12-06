@@ -11,11 +11,11 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/image4501.jpg'
+import image1 from '@/images/photos/camera-main.jpg'
 import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/presta-fpv.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
-import image5 from '@/images/photos/camera-capitole.jpg'
+import image5 from '@/images/photos/image4501.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
 import logoEva from '@/images/logos/logoeva.png'
@@ -185,7 +185,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            FC PRODUCTIONS - LE BON SITE A UTILISER POUR LE FCPROD.FR
+            FC PRODUCTIONS
           </h1>
           <p className="text-base text-zinc-800 dark:text-zinc-100 text-lg animate-pulse">
             Vidéaste - Télépilote Drone FPV
