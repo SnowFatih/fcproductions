@@ -228,22 +228,22 @@ export default function Home({ articles }) {
 
           
             <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
-              <a href="avis/#operagrandavignon">
+              <a href="avis#operagrandavignon">
                 <Image src={logoOpera} alt="logo du grand opéra avignon" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
               </a>
-              <a href="avis/#eva">
+              <a href="avis#eva">
                 <Image src={logoEva} alt="logo de eva en réalité virtuelle" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a> 
-              <a href="avis/#festiculture">
+              <a href="avis#festiculture">
                 <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a>  
-              <a href="avis">
+              <a href="avis#bmxosny">
                 <Image src={logoOsny} alt="logo du club bmx de osny" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a>  
-              <a href="avis/#ronelocation">
+              <a href="avis#ronelocation">
                 <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a>  
-              <a href="avis/#capitolestudios">
+              <a href="avis#capitolestudios">
                 <Image src={logoCapitole} alt="logo du capitole studios" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a>
             </div>
