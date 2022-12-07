@@ -67,7 +67,7 @@ export default function Avis() {
     
       <SimpleLayout
         title="Les retours clients ! "
-        intro="J'ai travaillé avec plusieurs types de clients. Retrouvez ci-dessous les avis (réelles) dece qu'ils avaient à dire sur mes prestations !"
+        intro="J'ai travaillé dans différent secteurs de tournage. Retrouvez ci-dessous les avis (réelles) de mes clients sur mes prestations !"
         >
           <Image src={image} className="object-cover h-64 w-full rounded-lg mb-20 contrast-100 saturate-50" alt="fc productions"></Image>
 
