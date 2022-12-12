@@ -17,7 +17,7 @@ const projects = [
     name: 'EVA E-Sport Arenas',
     description:
       "Tour en drone FPV indoor pour EVA avec du SFX/VFX pour représenter l'univers de l'arène en réalité virtuelle.",
-    link: { href: 'https://www.youtube.com/watch?v=4kQwNypdK20&t=6s&ab_channel=FCProductions', label: 'Regarder la vidéo' },
+    link: { href: 'https://youtu.be/4kQwNypdK20', label: 'Regarder la vidéo' },
     logo: miniaEva,
   },
   {
