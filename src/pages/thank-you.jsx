@@ -13,7 +13,7 @@ export default function ThankYou() {
     <>
 
       <Head>
-        <title>Message envoyé ! - FC</title>
+        <title>Message envoyé | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"

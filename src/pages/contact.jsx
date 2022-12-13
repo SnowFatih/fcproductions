@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>FC - Contact</title>
+        <title>Contact | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"

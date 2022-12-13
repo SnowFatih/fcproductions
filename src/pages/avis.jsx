@@ -57,7 +57,7 @@ export default function Avis() {
   return (
     <>
       <Head>
-        <title>FC - Avis Clients</title>
+        <title>Avis Clients | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"
