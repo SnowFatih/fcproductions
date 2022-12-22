@@ -178,7 +178,7 @@ export default function Home({ articles }) {
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta
           name="description"
-          content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions dans toute la France !"
+          content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions de Paris jusqu'à Avignon !"
         />
       </Head>
       
