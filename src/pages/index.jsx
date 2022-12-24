@@ -16,6 +16,7 @@ import image2 from '@/images/photos/IMG_5911.jpg'
 import image3 from '@/images/photos/presta-fpv.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
 import image5 from '@/images/photos/manarola.jpg'
+import portraitImage from '@/images/photos/tango.jpg'
 
 import logoOpera from '@/images/logos/logoopera.png'
 import logoEva from '@/images/logos/logoeva.png'
@@ -24,10 +25,24 @@ import logoOsny from '@/images/logos/logoosny.png'
 import logoCapitole from '@/images/logos/logocapitole.png'
 import logoRlocation from '@/images/logos/logorlocation.png'
 
+import gitAccueil from '@/images/giphy.gif'
+
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
 
+function ChevronRightIcon(props) {
+  return (
+    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
+      <path
+        d="M6.75 5.75 9.25 8l-2.5 2.25"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
 
 function MailIcon(props) {
   return (
@@ -183,6 +198,7 @@ export default function Home({ articles }) {
       </Head>
       
       <Container className="mt-9">
+
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             FC PRODUCTIONS
@@ -247,6 +263,8 @@ export default function Home({ articles }) {
                 <Image src={logoCapitole} alt="logo du capitole studios" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
               </a>
             </div>
+            
+
 
 
       </Container>
@@ -261,11 +279,28 @@ export default function Home({ articles }) {
               <Article key={article.slug} article={article} />
             ))}
           </div>
-
+          
           <div className="space-y-10 lg:pl-16 xl:pl-24">
+            <div className="lg:pl-12 mt-10">
+              <div className="max-w-xs px-2.5 lg:max-w-none">
+              <a href="presentation">
+                <Image
+                  src={portraitImage}
+                  alt="portrait de fc productions"
+                  sizes="(min-width: 1024px) 32rem, 20rem"
+                  className="rotate-2 rounded-2xl bg-zinc-100 object-cover hover:animate-pulse dark:bg-zinc-800"
+                />
+                </a>
+              </div>
+          <a href="presentation" aria-hidden="true" className="hover:animate-pulse justify-center rotate-2 -ml-3 flex mt-2 font-medium tracking-tight opacity-80 relative items-center text-sm text-teal-500" >
+          Découvrir l'histoire de FC Productions
+          <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
+          </a>
+
+          </div>
+
             {/* <Newsletter /> */}
             
-            {/* <Resume /> */}
           </div>
         </div>
         
