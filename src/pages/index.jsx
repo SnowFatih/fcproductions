@@ -25,8 +25,6 @@ import logoOsny from '@/images/logos/logoosny.png'
 import logoCapitole from '@/images/logos/logocapitole.png'
 import logoRlocation from '@/images/logos/logorlocation.png'
 
-import gitAccueil from '@/images/giphy.gif'
-
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
