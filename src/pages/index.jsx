@@ -278,7 +278,7 @@ export default function Home({ articles }) {
             ))}
           </div>
           
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
+          <div className="space-y-10 lg:pl-16 xl:pl-24 hover:animate-pulse">
             <div className="lg:pl-12 rotate-2 mt-10">
               <div className="max-w-xs m-auto px-2.5 lg:max-w-none">
               <a href="presentation">
@@ -286,17 +286,19 @@ export default function Home({ articles }) {
                   src={portraitImage}
                   alt="portrait de fc productions"
                   sizes="(min-width: 1024px) 32rem, 20rem"
-                  className=" rounded-2xl bg-zinc-100 object-cover hover:animate-pulse dark:bg-zinc-800"
+                  className=" rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                 />
                 </a>
-                <a href="presentation" aria-hidden="true" className="hover:animate-pulse justify-center -ml-3 flex mt-2 font-medium tracking-tight opacity-80 relative items-center text-sm text-teal-500" >
+                <div className="flex place-content-center">
+                <a href="presentation" aria-hidden="true" className="flex mt-2 items-center font-medium tracking-tight opacity-80  text-sm text-teal-500" >
                 Découvrir l'histoire de FC Productions
                 <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
                 </a>
+                </div>
               </div>
           </div>
 
-            {/* <Newsletter /> */}
+            {/* <Newsletter />*/}
             
           </div>
         </div>
