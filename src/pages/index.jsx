@@ -12,8 +12,8 @@ import {
 } from '@/components/SocialIcons'
 
 import image1 from '@/images/photos/camera-main.jpg'
-import image2 from '@/images/photos/IMG_5911.jpg'
-import image3 from '@/images/photos/presta-fpv.jpg'
+import image2 from '@/images/photos/presta-fpv.jpg'
+import image3 from '@/images/photos/IMG_5911.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
 import image5 from '@/images/photos/manarola.jpg'
 import portraitImage from '@/images/photos/tango.jpg'
@@ -278,9 +278,9 @@ export default function Home({ articles }) {
             ))}
           </div>
           
-          <div className="space-y-10 lg:pl-16 xl:pl-24 hover:animate-pulse">
-            <div className="lg:pl-12 rotate-2 mt-10">
-              <div className="max-w-xs m-auto px-2.5 lg:max-w-none">
+          <div className="space-y-10 lg:pl-16 xl:pl-24">
+            <div className="lg:pl-12 rotate-2 mt-10 ">
+              <div className="max-w-xs m-auto px-2.5 hover:animate-pulse lg:max-w-none">
               <a href="presentation">
                 <Image
                   src={portraitImage}
