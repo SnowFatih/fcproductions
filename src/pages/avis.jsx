@@ -59,6 +59,7 @@ export default function Avis() {
       <Head>
         <title>Avis Clients | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <meta name="image" property="og:image" content="/large-og.png" />
         <meta
           name="description"
           content="Les avis de mes clients."
