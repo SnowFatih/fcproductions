@@ -35,7 +35,7 @@ export function ArticleLayout({
       <Head>
         <title>{`${meta.title} - FC Productions`}</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-        <meta name="image" property="og:image" content="/large-og.png" />
+        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta name="description" content={meta.description} />
       </Head>
       <Container className="mt-16 lg:mt-32">

@@ -189,7 +189,7 @@ export default function Home({ articles }) {
       <Head>
         <title>FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-        <meta name="image" property="og:image" content="/large-og.png" />
+        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions de Paris jusqu'à Avignon !"

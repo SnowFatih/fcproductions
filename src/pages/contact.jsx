@@ -11,7 +11,7 @@ export default function Contact() {
       <Head>
         <title>Contact | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-        <meta name="image" property="og:image" content="/large-og.png" />
+        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Formulaire de contact pour FC PRODUCTIONS"
