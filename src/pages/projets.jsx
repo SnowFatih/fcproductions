@@ -10,9 +10,25 @@ import miniaCapitole from '@/images/miniatures/capitolestudio.jpeg'
 import miniaFesticulute from '@/images/miniatures/festiculture.jpeg'
 import miniaCarsamba from '@/images/miniatures/carsamba.jpeg'
 import miniaMoanakite from '@/images/miniatures/moanakite.jpeg'
+import miniaLokoumIstanbul from '@/images/miniatures/lokoumistanbul.jpg'
+import miniaDSEfpv from '@/images/miniatures/dsefpv.jpg'
 
 
 const projects = [
+  {
+    name: 'Restaurant Lokoum Istanbul',
+    description:
+      "Présentation du restaurant gastronomique turc à Lyon.",
+    link: { href: 'https://www.youtube.com/watch?v=WLWi9o0ySQ8&ab_channel=FCProductions', label: 'Regarder la vidéo' },
+    logo: miniaLokoumIstanbul,
+  },
+  {
+    name: 'Indoor DSE Menuiserie',
+    description:
+      "Tour en drone FPV indoor oneshot dans les locaux de DSE Menuiseries à Boissy-l'Aillerie",
+    link: { href: 'https://www.youtube.com/watch?v=hlTt2iH01IA&ab_channel=FCProductions', label: 'Regarder la vidéo' },
+    logo: miniaDSEfpv,
+  },
   {
     name: 'EVA E-Sport Arenas',
     description:
