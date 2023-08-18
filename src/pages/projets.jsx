@@ -108,6 +108,13 @@ export default function Projects() {
         title="Mes dernières productions"
         intro="J'ai pu déjà travailler sur plusieurs environnements de tournages différents; passer des tournages indoor à outdoor ! - Ainsi, pour répondre à n’importe quel projet, je dispose d’une large flotte de matériel comportant caméras & drones, plus particulièrement les drones FPV qui peuvent répondre à beaucoup d’attentes."
         >
+
+        <div className="mb-12 justify-center w-full flex">
+          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+            Tout voir sur YouTube
+          </a>
+        </div>
+
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
@@ -134,6 +141,11 @@ export default function Projects() {
           ))}
         </ul>
 
+        <div className="mt-12 justify-center w-full flex">
+          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+            Tout voir sur YouTube
+          </a>
+        </div>
       </SimpleLayout>
     </>
   )
