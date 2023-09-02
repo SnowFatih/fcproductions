@@ -12,7 +12,7 @@ import {
 } from '@/components/SocialIcons'
 
 import image1 from '@/images/photos/presta-fpv.jpg'
-import image2 from '@/images/photos/IMG_7694.jpg'
+import image2 from '@/images/photos/IMG_7694.png'
 import image3 from '@/images/photos/IMG_5911.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
 import image5 from '@/images/photos/manarola.jpg'
@@ -248,7 +248,7 @@ export default function Home({ articles }) {
 
       <Container>
 
-        
+
         <div className="items-center md:flex flex-wrap md:gap-x-10 content-between justify-center grid grid-cols-4 mt-5 gap-x-4">
           <a href="avis#operagrandavignon">
             <Image src={logoOpera} alt="logo du grand opéra avignon" width={150}  className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
