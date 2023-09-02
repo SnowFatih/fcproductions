@@ -40,6 +40,7 @@ export default function ArticlesIndex({ articles }) {
       <Head>
         <title>Articles | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <meta name='robots' content='index, follow' />
         <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta
           name="description"

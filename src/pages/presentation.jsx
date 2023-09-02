@@ -11,7 +11,7 @@ import {
   LinkedInIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/photos/tango.jpg'
+import portraitImage from '@/images/photos/IMG_7694.jpg'
 
 export function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -44,6 +44,7 @@ export default function About() {
       <Head>
         <title>Présentation | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <meta name='robots' content='index, follow' />
         <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta
           name="description"

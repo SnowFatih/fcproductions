@@ -11,8 +11,8 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/camera-main.jpg'
-import image2 from '@/images/photos/presta-fpv.jpg'
+import image1 from '@/images/photos/presta-fpv.jpg'
+import image2 from '@/images/photos/IMG_7694.jpg'
 import image3 from '@/images/photos/IMG_5911.jpg'
 import image4 from '@/images/photos/camera-capitole.jpg'
 import image5 from '@/images/photos/manarola.jpg'
@@ -24,6 +24,11 @@ import logoFesti from '@/images/logos/logofesti.png'
 import logoOsny from '@/images/logos/logoosny.png'
 import logoCapitole from '@/images/logos/logocapitole.png'
 import logoRlocation from '@/images/logos/logorlocation.png'
+import logoAlaTurka from '@/images/logos/alaturka.png'
+import logoCarsamba from '@/images/logos/carsamba.png'
+import logoTuzla from '@/images/logos/tuzla.png'
+import logoDJBurak from '@/images/logos/djburak.png'
+import logoFestivalRouen from '@/images/logos/festivalrouen.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -190,6 +195,7 @@ export default function Home({ articles }) {
       <Head>
         <title>FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <meta name='robots' content='index, follow' />
         <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
         <meta
           name="description"
@@ -203,7 +209,7 @@ export default function Home({ articles }) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             FC PRODUCTIONS
           </h1>
-          <p className="text-base text-zinc-800 dark:text-zinc-100 text-lg animate-pulse">
+          <p className="text-zinc-800 dark:text-zinc-100 text-lg animate-pulse">
             Vidéaste - Télépilote Drone FPV
           </p>
           <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
@@ -241,36 +247,43 @@ export default function Home({ articles }) {
       </h1>
 
       <Container>
-
-          
-            <div className="flex items-center grid sm:grid-cols-6 grid-cols-3 gap-4 content-between">
-              <a href="avis#operagrandavignon">
-                <Image src={logoOpera} alt="logo du grand opéra avignon" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
-              </a>
-              <a href="avis#eva">
-                <Image src={logoEva} alt="logo de eva en réalité virtuelle" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-              </a> 
-              <a href="avis#festiculture">
-                <Image src={logoFesti} alt="logo de festiculture" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-              </a>  
-              <a href="avis#bmxosny">
-                <Image src={logoOsny} alt="logo du club bmx de osny" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-              </a>  
-              <a href="avis#ronelocation">
-                <Image src={logoRlocation} alt="logo de rone location" className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-              </a>  
-              <a href="avis#capitolestudios">
-                <Image src={logoCapitole} alt="logo du capitole studios" className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-              </a>
-            </div>
-            
-
-
-
+        <div className="items-center md:flex flex-wrap md:gap-x-10 content-between justify-center grid grid-cols-4 mt-5 gap-x-4">
+          <a href="avis#operagrandavignon">
+            <Image src={logoOpera} alt="logo du grand opéra avignon" width={150}  className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
+          </a>
+          <a href="avis#eva">
+            <Image src={logoEva} alt="logo de eva en réalité virtuelle" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a> 
+          <a href="avis#festiculture">
+            <Image src={logoFesti} alt="logo de festiculture" width={180} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>  
+          <a href="avis#bmxosny">
+            <Image src={logoOsny} alt="logo du club bmx de osny" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>  
+          <a href="avis#ronelocation">
+            <Image src={logoRlocation} alt="logo de rone location" width={150} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>  
+          <a href="avis#capitole">
+            <Image src={logoCapitole} alt="logo du capitole studios" width={160} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+          <a href="avis">
+            <Image src={logoAlaTurka} alt="logo de ala turka" width={100} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+          <a href="avis">
+            <Image src={logoFestivalRouen} alt="logo du festival de la turquie a rouen" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+          <a href="avis">
+            <Image src={logoCarsamba} alt="logo de la mairie de carsamba samsun" width={130} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+          <a href="avis">
+            <Image src={logoTuzla} alt="logo de la mairie de tuzla a istanbul" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+          <a href="avis">
+            <Image src={logoDJBurak} alt="logo de dj burak" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </a>
+        </div>
       </Container>
-      <a href="avis" className="justify-center flex mb-5 text-xs font-bold tracking-tight text-zinc-800 dark:text-zinc-100 opacity-80 italic">
-      et encore bien d'autres.. Cliquez pour lire leur avis !
-      </a>
+
 
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
