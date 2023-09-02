@@ -247,6 +247,8 @@ export default function Home({ articles }) {
       </h1>
 
       <Container>
+
+        
         <div className="items-center md:flex flex-wrap md:gap-x-10 content-between justify-center grid grid-cols-4 mt-5 gap-x-4">
           <a href="avis#operagrandavignon">
             <Image src={logoOpera} alt="logo du grand opéra avignon" width={150}  className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
