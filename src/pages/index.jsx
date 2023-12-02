@@ -107,7 +107,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>FC Productions</title>
+        <title>FC Productions | Vidéaste et télépilote de drone FPV</title>
         <link rel="icon" href="favicon.ico" />
         {/* <link rel="icon" type="image/x-icon" href="/favicon.ico"/> */}
         <meta name='robots' content='index, follow' />
