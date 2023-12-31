@@ -103,6 +103,9 @@ export default function Projects() {
           name="description"
           content="Mes dernières productions"
         />
+        <meta name="keywords" content="Projet vidéos, avec drone et fpv" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://fcproductions.fr/projets" />
       </Head>
     
       <SimpleLayout

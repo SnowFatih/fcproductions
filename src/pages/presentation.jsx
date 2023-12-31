@@ -5,10 +5,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
-  TwitterIcon,
   InstagramIcon,
-  GitHubIcon,
-  LinkedInIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/photos/IMG_7694.png'
@@ -50,6 +47,9 @@ export default function About() {
           name="description"
           content="FC Productions, vidéaste et droniste sur Paris et toute la France"
         />
+        <meta name="keywords" content="A Propos Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://fcproductions.fr/presentation" />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">

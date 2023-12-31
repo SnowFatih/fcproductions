@@ -65,6 +65,9 @@ export default function Avis() {
           name="description"
           content="Les avis de mes clients."
         />
+        <meta name="keywords" content="Avis des clients d'entreprise, EVA, Festiculture, Istanbul" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://fcproductions.fr/avis" />
       </Head>
     
       <SimpleLayout

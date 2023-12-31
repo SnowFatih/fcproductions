@@ -116,6 +116,9 @@ export default function Home({ articles }) {
           name="description"
           content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions de Paris jusqu'à Avignon !"
         />
+        <meta name="keywords" content="Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://fcproductions.fr/" />
       </Head>
       
       <Container className="mt-9">

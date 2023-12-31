@@ -46,6 +46,9 @@ export default function ArticlesIndex({ articles }) {
           name="description"
           content="Des articles concernant les productions de ma page."
         />
+        <meta name="keywords" content="Blog d'astuce de Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://fcproductions.fr/blog" />
       </Head>
       <SimpleLayout
         title="Des articles concernant les productions de ma page. "
