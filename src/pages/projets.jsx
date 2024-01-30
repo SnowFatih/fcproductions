@@ -12,9 +12,49 @@ import miniaCarsamba from '@/images/miniatures/carsamba.jpeg'
 import miniaMoanakite from '@/images/miniatures/moanakite.jpeg'
 import miniaLokoumIstanbul from '@/images/miniatures/lokoumistanbul.jpg'
 import miniaDSEfpv from '@/images/miniatures/dsefpv.jpg'
+import miniaObrigado from '@/images/miniatures/obrigado.jpeg'
+import miniaSignaleo from '@/images/miniatures/signaleo.jpeg'
+import miniaMyintegration from '@/images/miniatures/myintegration.jpeg'
+import miniaTuzla from '@/images/miniatures/kartingtuzla.jpeg'
+import miniaIsoka from '@/images/miniatures/isoka.jpg'
 
 
 const projects = [
+  {
+    name: 'Isoka Environnement FPV Indoor',
+    description:
+      "Oneshot survolant rapidement les locaux d'Isoka Env. à Montélimar.",
+    link: { href: 'https://www.youtube.com/watch?v=yfeVkmrkLe4', label: 'Regarder la vidéo' },
+    logo: miniaIsoka,
+  },
+  {
+    name: 'FPV Karting Istanbul',
+    description:
+      "Course de karting au Parc Istanbul suivi en drone FPV.",
+    link: { href: 'https://www.youtube.com/watch?v=CFfT9vKjCCk', label: 'Regarder la vidéo' },
+    logo: miniaTuzla,
+  },
+  {
+    name: 'MyIntegration',
+    description:
+      "Plate-forme SaaS MyIntegration qui facilite la synchronisation des données entre SaaS.",
+    link: { href: 'https://youtu.be/1mecwevsulY', label: 'Regarder la vidéo' },
+    logo: miniaMyintegration,
+  },
+  {
+    name: 'Signaleo Cergy',
+    description:
+      "Application mobile pour la propreté urbaine à Cergy.",
+    link: { href: 'https://www.youtube.com/watch?v=jUaR9dk7wQo', label: 'Regarder la vidéo' },
+    logo: miniaSignaleo,
+  },
+  {
+    name: 'Obrigado Rodizio Restaurant',
+    description:
+      "Présentation du restaurant brésilien à Paris.",
+    link: { href: 'https://www.youtube.com/watch?v=TK-BhwsE_ZY', label: 'Regarder la vidéo' },
+    logo: miniaObrigado,
+  },
   {
     name: 'Restaurant Lokoum Istanbul',
     description:

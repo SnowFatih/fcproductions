@@ -25,20 +25,23 @@ export default function Contact() {
       <div className=" mt-16 sm:mt-32 px-4 mx-auto max-w-screen-md">
         <header className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Contactez-nous !
+            Contactez-nous !
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Une demande ? Une prestation envisagée ?
+            Une demande ? Une prestation envisagée ?
+          </p>
+          <p className="my-5 text-base text-zinc-600 dark:text-zinc-400">
+            Faites-nous en part !
           </p>
           <p className="mb-6 text-base text-zinc-600 dark:text-zinc-400">
-          Faites-nous en part !
+            Vous pouvez également nous joindre à l'adresse e-mail suivante: <a href = "mailto:contact@fcproductions.fr"><strong>contact@fcproductions.fr</strong></a>
           </p>
         </header>
 
         <form action="https://formsubmit.co/a76e41986aeeb899cbba0f821dc1140e" method="POST" className="space-y-8">
           <div>
               <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Votre e-mail</label>
-              <input type="email" name="E-mail" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="patrick-du-95@gmail.com" required/>
+              <input type="email" name="E-mail" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="jean-patrick@gmail.com" required/>
           </div>
           <div>
               <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sujet</label>

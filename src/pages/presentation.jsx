@@ -69,8 +69,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Moi, c'est <strong>Fatih C.</strong> ! J'ai commencé la <strong>vidéographie</strong> ainsi que <strong>photographie</strong> très jeune dans l'événementiel avec <strong>@IZPhotoVideo</strong>. Ce qui m'a 
-                permit d'avoir des bases rapidement ainsi que du temps pour perfectionner mes connaissances.
+                Moi, c'est <strong>Fatih C.</strong> ! J'ai commencé la <strong>vidéographie</strong> ainsi que <strong>photographie</strong> très jeune dans l'événementiel avec <strong>@IZPhotoVideo</strong> au sud de la France. Ce qui m'a 
+                permis d'avoir des bases rapidement ainsi que du temps pour perfectionner mes connaissances.
               </p>
               <p>
                 Je me suis rapidement penché dans la vidéographie et trouvé une <strong>passion</strong> dans le drone.
@@ -81,6 +81,9 @@ export default function About() {
                 du <strong>contenu cinématographique</strong>. 
                 Ce genre de machine deviennent de plus en plus en tendance, il est effectivement possible de réaliser des prises de vues supers dynamiques mais aussi des plans séquence très créatifs.
                 Le <strong>dynamisme</strong> et l’<strong>originalité</strong> de ces prises de vues permettent de garder l’attention du spectateur jusqu’au bout.
+              </p>
+              <p>
+                Aujourd'hui, j'ai un double domicile à Paris & à Avignon. Ce qui me permet de me déplacer partout en France très rapidement et facilement pour réaliser vos divers projets !
               </p>
               <p>
               <strong>La seule limite... notre créativité !</strong>
