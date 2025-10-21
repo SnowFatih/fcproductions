@@ -153,11 +153,18 @@ export default function Projects() {
         intro="J'ai pu déjà travailler sur plusieurs environnements de tournages différents; passer des tournages indoor à outdoor ! - Ainsi, pour répondre à n’importe quel projet, je dispose d’une large flotte de matériel comportant caméras & drones, plus particulièrement les drones FPV qui peuvent répondre à beaucoup d’attentes."
         >
 
+      <div className='flex md:flex-row flex-col'>
         <div className="mb-12 justify-center w-full flex">
-          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
-            Tout voir sur YouTube
+          <a type="button" target="_blank" href="https://www.instagram.com/fcproductions55/" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+            Voir les dernières productions sur Instagram
           </a>
         </div>
+        <div className="mb-12 justify-center w-full flex">
+          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+            Voir les vidéos horizontales sur YouTube
+          </a>
+        </div>
+      </div>
 
         <ul
           role="list"
@@ -171,6 +178,8 @@ export default function Projects() {
                   alt=""
                   className="h-44 w-72 object-contain "
                   unoptimized
+                  width={700}
+                  height={400}
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
