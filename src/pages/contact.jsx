@@ -34,7 +34,7 @@ export default function Contact() {
             Faites-nous en part !
           </p>
           <p className="mb-6 text-base text-zinc-600 dark:text-zinc-400">
-            Vous pouvez également nous joindre à l'adresse e-mail suivante: <a href = "mailto:contact@fcproductions.fr"><strong>contact@fcproductions.fr</strong></a>
+            Vous pouvez également nous joindre à l'adresse e-mail suivante: <a href = "mailto:fatih@fcproductions.fr"><strong>fatih@fcproductions.fr</strong></a>
           </p>
         </header>
 
