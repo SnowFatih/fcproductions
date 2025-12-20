@@ -12,14 +12,14 @@ export default function Contact() {
         <title>Contact | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Formulaire de contact pour FC PRODUCTIONS"
         />
         <meta name="keywords" content="Contact de vidéaste telepilote drone fpv" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/contact" />
+        <link rel="canonical" href="https://fcproductions.fr/contact" />
       </Head>
 
       <div className=" mt-16 sm:mt-32 px-4 mx-auto max-w-screen-md">

@@ -3,20 +3,20 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import miniaOpera from '@/images/miniatures/operaavignon.jpeg'
-import miniaEva from '@/images/miniatures/miniaEva.jpeg'
-import miniaBmx from '@/images/miniatures/bmx.jpeg'
-import miniaCapitole from '@/images/miniatures/capitolestudio.jpeg'
-import miniaFesticulute from '@/images/miniatures/festiculture.jpeg'
-import miniaCarsamba from '@/images/miniatures/carsamba.jpeg'
-import miniaMoanakite from '@/images/miniatures/moanakite.jpeg'
-import miniaLokoumIstanbul from '@/images/miniatures/lokoumistanbul.jpg'
-import miniaDSEfpv from '@/images/miniatures/dsefpv.jpg'
-import miniaObrigado from '@/images/miniatures/obrigado.jpeg'
-import miniaSignaleo from '@/images/miniatures/signaleo.jpeg'
-import miniaMyintegration from '@/images/miniatures/myintegration.jpeg'
-import miniaTuzla from '@/images/miniatures/kartingtuzla.jpeg'
-import miniaIsoka from '@/images/miniatures/isoka.jpg'
+import miniaOpera from '@/images/miniatures/operaavignon.webp'
+import miniaEva from '@/images/miniatures/miniaEva.webp'
+import miniaBmx from '@/images/miniatures/bmx.webp'
+import miniaCapitole from '@/images/miniatures/capitolestudio.webp'
+import miniaFesticulute from '@/images/miniatures/festiculture.webp'
+import miniaCarsamba from '@/images/miniatures/carsamba.webp'
+import miniaMoanakite from '@/images/miniatures/moanakite.webp'
+import miniaLokoumIstanbul from '@/images/miniatures/lokoumistanbul.webp'
+import miniaDSEfpv from '@/images/miniatures/dsefpv.webp'
+import miniaObrigado from '@/images/miniatures/obrigado.webp'
+import miniaSignaleo from '@/images/miniatures/signaleo.webp'
+import miniaMyintegration from '@/images/miniatures/myintegration.webp'
+import miniaTuzla from '@/images/miniatures/kartingtuzla.webp'
+import miniaIsoka from '@/images/miniatures/isoka.webp'
 
 
 const projects = [
@@ -138,14 +138,14 @@ export default function Projects() {
         <title>Projets | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Mes dernières productions"
         />
         <meta name="keywords" content="Projet vidéos, avec drone et fpv" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/projets" />
+        <link rel="canonical" href="https://fcproductions.fr/projets" />
       </Head>
     
       <SimpleLayout
@@ -155,12 +155,12 @@ export default function Projects() {
 
       <div className='flex md:flex-row flex-col'>
         <div className="mb-12 justify-center w-full flex">
-          <a type="button" target="_blank" href="https://www.instagram.com/fcproductions55/" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+          <a type="button" target="_blank" href="https://www.instagram.com/fcproductions55/" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noopener noreferrer">
             Voir les dernières productions sur Instagram
           </a>
         </div>
         <div className="mb-12 justify-center w-full flex">
-          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noopener noreferrer">
             Voir les vidéos horizontales sur YouTube
           </a>
         </div>
@@ -175,7 +175,7 @@ export default function Projects() {
               <div className="relative z-10 flex h-48 w-80 items-center justify-center rounded-lg bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
                   src={project.logo}
-                  alt=""
+                  alt={`Miniature du projet ${project.name}`}
                   className="h-44 w-72 object-contain "
                   unoptimized
                   width={700}
@@ -195,7 +195,7 @@ export default function Projects() {
         </ul>
 
         <div className="mt-12 justify-center w-full flex">
-          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noreferrer">
+          <a type="button" target="_blank" href="https://www.youtube.com/@fcproductions55/videos" className=" dark:text-white text-black group relative shadow-[0_100px_0_0_hsl(0_0%_90%)_inset] hover:scale-[102%] duration-200 rounded-full px-6 py-1.5 dark:shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset]" rel="noopener noreferrer">
             Tout voir sur YouTube
           </a>
         </div>

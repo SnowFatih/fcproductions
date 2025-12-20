@@ -41,14 +41,14 @@ export default function ArticlesIndex({ articles }) {
         <title>Articles | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Des articles concernant les productions de ma page."
         />
         <meta name="keywords" content="Blog d'astuce de Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/blog" />
+        <link rel="canonical" href="https://fcproductions.fr/blog" />
       </Head>
       <SimpleLayout
         title="Des articles concernant les productions de ma page. "

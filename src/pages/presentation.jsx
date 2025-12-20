@@ -8,14 +8,16 @@ import {
   InstagramIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/photos/IMG_7694.png'
+import portraitImage from '@/images/photos/IMG_7694.webp'
 
 export function SocialLink({ className, href, children, icon: Icon }) {
+  const isExternal = href.startsWith('http')
   return (
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        {...(isExternal && { rel: 'noopener noreferrer', target: '_blank' })}
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
@@ -42,14 +44,14 @@ export default function About() {
         <title>Présentation | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="FC Productions, vidéaste et droniste sur Paris et toute la France"
         />
         <meta name="keywords" content="A Propos Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/presentation" />
+        <link rel="canonical" href="https://fcproductions.fr/presentation" />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -57,7 +59,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt=""
+                alt="Portrait de Fatih C., fondateur de FC Productions"
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />

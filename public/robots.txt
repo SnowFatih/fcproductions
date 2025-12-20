@@ -1,0 +1,12 @@
+# robots.txt pour FC Productions
+# https://fcproductions.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fcproductions.fr/sitemap.xml
+
+# Bloquer les fichiers non pertinents
+Disallow: /_next/
+Disallow: /api/

@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import image from '@/images/photos/IMG_6299.png'
+import image from '@/images/photos/IMG_6299.webp'
 
 const reviews = [
   {
@@ -60,14 +60,14 @@ export default function Avis() {
         <title>Avis Clients | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Les avis de mes clients."
         />
         <meta name="keywords" content="Avis des clients d'entreprise, EVA, Festiculture, Istanbul" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/avis" />
+        <link rel="canonical" href="https://fcproductions.fr/avis" />
       </Head>
     
       <SimpleLayout

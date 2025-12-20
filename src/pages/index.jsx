@@ -11,24 +11,24 @@ import {
   YoutubeIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/presta-fpv.jpg'
-import image2 from '@/images/photos/IMG_7694.png'
-import image3 from '@/images/photos/IMG_5911.jpg'
-import image4 from '@/images/photos/camera-capitole.jpg'
-import image5 from '@/images/photos/manarola.jpg'
-import portraitImage from '@/images/photos/tango.jpg'
+import image1 from '@/images/photos/presta-fpv.webp'
+import image2 from '@/images/photos/IMG_7694.webp'
+import image3 from '@/images/photos/IMG_5911.webp'
+import image4 from '@/images/photos/camera-capitole.webp'
+import image5 from '@/images/photos/manarola.webp'
+import portraitImage from '@/images/photos/tango.webp'
 
-import logoOpera from '@/images/logos/logoopera.png'
-import logoEva from '@/images/logos/logoeva.png'
-import logoFesti from '@/images/logos/logofesti.png'
-import logoOsny from '@/images/logos/logoosny.png'
-import logoCapitole from '@/images/logos/logocapitole.png'
-import logoRlocation from '@/images/logos/logorlocation.png'
-import logoAlaTurka from '@/images/logos/alaturka.png'
-import logoCarsamba from '@/images/logos/carsamba.png'
-import logoTuzla from '@/images/logos/tuzla.png'
-import logoDJBurak from '@/images/logos/djburak.png'
-import logoFestivalRouen from '@/images/logos/festivalrouen.png'
+import logoOpera from '@/images/logos/logoopera.webp'
+import logoEva from '@/images/logos/logoeva.webp'
+import logoFesti from '@/images/logos/logofesti.webp'
+import logoOsny from '@/images/logos/logoosny.webp'
+import logoCapitole from '@/images/logos/logocapitole.webp'
+import logoRlocation from '@/images/logos/logorlocation.webp'
+import logoAlaTurka from '@/images/logos/alaturka.webp'
+import logoCarsamba from '@/images/logos/carsamba.webp'
+import logoTuzla from '@/images/logos/tuzla.webp'
+import logoDJBurak from '@/images/logos/djburak.webp'
+import logoFestivalRouen from '@/images/logos/festivalrouen.webp'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -65,7 +65,7 @@ function Article({ article }) {
 
 export function SocialLink({ icon: Icon, ...props }) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" rel="noopener noreferrer" {...props}>
       <Icon className="h-6 w-6 transition group-hover:fill-teal-500 dark:fill-zinc-200 dark:group-hover:fill-teal-500" />
     </Link>
   )
@@ -75,21 +75,27 @@ export function SocialLink({ icon: Icon, ...props }) {
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
-  const images = [image1, image2, image3, image4, image5];
+  const images = [
+    { src: image1, alt: 'Prestation drone FPV en action' },
+    { src: image2, alt: 'Tournage vidéo professionnel' },
+    { src: image3, alt: 'Prise de vue aérienne drone' },
+    { src: image4, alt: 'Caméra de tournage au Capitole' },
+    { src: image5, alt: 'Vue aérienne de Manarola en Italie' },
+  ];
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
         {images.map((image, imageIndex) => (
           <div
-            key={image.src}
+            key={image.src.src}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
             )}
           >
             <Image
-              src={image}
-              alt=""
+              src={image.src}
+              alt={image.alt}
               height={400}
               width={500}
               className="absolute inset-0 h-full w-full object-cover"
@@ -111,14 +117,14 @@ export default function Home({ articles }) {
         <link rel="icon" href="favicon.ico" />
         {/* <link rel="icon" type="image/x-icon" href="/favicon.ico"/> */}
         <meta name='robots' content='index, follow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Vidéaste et télépilote de drone FPV ! 🎥 🎞️ Nous vous accompagnons dans vos plus folles productions de Paris jusqu'à Avignon !"
         />
         <meta name="keywords" content="Vidéaste, Télépilote Drone FPV, Productions Vidéo, Drone FPV, Cinématographie" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://fcproductions.fr/" />
+        <link rel="canonical" href="https://fcproductions.fr/" />
       </Head>
       
       <Container className="mt-9">
@@ -126,13 +132,13 @@ export default function Home({ articles }) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             FC PRODUCTIONS
           </h1>
-          <p className="text-zinc-800 dark:text-zinc-100 text-lg animate-pulse">
+          <p className="text-zinc-800 dark:text-zinc-100 text-lg">
             Vidéaste - Télépilote Drone FPV
           </p>
-          <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
-            Nous vous accompagnons dans vos plus folles 
+          <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400">
+            Nous vous accompagnons dans vos plus folles
           </p>
-          <p className="text-base text-zinc-600 dark:text-zinc-400 animate-pulse">
+          <p className="text-base text-zinc-600 dark:text-zinc-400">
           productions dans toute la France !
           </p>
           <div className=" mt-6 flex gap-6 justify-center">
@@ -159,47 +165,47 @@ export default function Home({ articles }) {
       
 
 
-      <h1 className="text-center mt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+      <h2 className="text-center mt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
       Merci pour leur confiance.
-      </h1>
+      </h2>
 
       <Container>
 
 
         <div className="items-center md:flex flex-wrap md:gap-x-10 content-between justify-center grid grid-cols-4 mt-5 gap-x-4">
-          <a href="avis#operagrandavignon">
-            <Image src={logoOpera} alt="logo du grand opéra avignon" width={150}  className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
-          </a>
-          <a href="avis#eva">
-            <Image src={logoEva} alt="logo de eva en réalité virtuelle" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a> 
-          <a href="avis#festiculture">
-            <Image src={logoFesti} alt="logo de festiculture" width={180} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>  
-          <a href="avis#bmxosny">
-            <Image src={logoOsny} alt="logo du club bmx de osny" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>  
-          <a href="avis#ronelocation">
-            <Image src={logoRlocation} alt="logo de rone location" width={150} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>  
-          <a href="avis#capitole">
-            <Image src={logoCapitole} alt="logo du capitole studios" width={160} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
-          <a href="avis">
-            <Image src={logoAlaTurka} alt="logo de ala turka" width={100} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
-          <a href="avis">
-            <Image src={logoFestivalRouen} alt="logo du festival de la turquie a rouen" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
-          <a href="avis">
-            <Image src={logoCarsamba} alt="logo de la mairie de carsamba samsun" width={130} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
-          <a href="avis">
-            <Image src={logoTuzla} alt="logo de la mairie de tuzla a istanbul" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
-          <a href="avis">
-            <Image src={logoDJBurak} alt="logo de dj burak" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
-          </a>
+          <Link href="/avis#operagrandavignon">
+            <Image src={logoOpera} alt="Logo du Grand Opéra Avignon" width={150}  className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110" />
+          </Link>
+          <Link href="/avis#eva">
+            <Image src={logoEva} alt="Logo EVA réalité virtuelle" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis#festiculture">
+            <Image src={logoFesti} alt="Logo Festiculture" width={180} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis#bmxosny">
+            <Image src={logoOsny} alt="Logo Club BMX Osny" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis#ronelocation">
+            <Image src={logoRlocation} alt="Logo R-One Location" width={150} className=" transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis#capitole">
+            <Image src={logoCapitole} alt="Logo Capitole Studios" width={160} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis">
+            <Image src={logoAlaTurka} alt="Logo Ala Turka" width={100} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis">
+            <Image src={logoFestivalRouen} alt="Logo Festival de la Turquie Rouen" width={150} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis">
+            <Image src={logoCarsamba} alt="Logo Mairie de Carsamba" width={130} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis">
+            <Image src={logoTuzla} alt="Logo Mairie de Tuzla Istanbul" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
+          <Link href="/avis">
+            <Image src={logoDJBurak} alt="Logo DJ Burak" width={120} className=" dark:invert-0 dark:filter-none invert transition delay-4000 duration-300 ease-in-out hover:scale-110"/>
+          </Link>
         </div>
       </Container>
 
@@ -215,19 +221,19 @@ export default function Home({ articles }) {
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <div className="lg:pl-12 rotate-2 mt-10 ">
               <div className="max-w-xs m-auto px-2.5 hover:animate-pulse lg:max-w-none">
-              <a href="presentation">
+              <Link href="/presentation">
                 <Image
                   src={portraitImage}
-                  alt="portrait de fc productions"
+                  alt="Portrait de Fatih C., vidéaste et télépilote drone FPV"
                   sizes="(min-width: 1024px) 32rem, 20rem"
                   className=" rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                 />
-                </a>
+                </Link>
                 <div className="flex place-content-center">
-                <a href="presentation" aria-hidden="true" className="flex mt-2 items-center font-medium tracking-tight opacity-80  text-sm text-teal-500" >
+                <Link href="/presentation" className="flex mt-2 items-center font-medium tracking-tight opacity-80 text-sm text-teal-500" >
                 Découvrir l'histoire de FC Productions
                 <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
-                </a>
+                </Link>
                 </div>
               </div>
             </div>

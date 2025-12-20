@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
 import Image from 'next/future/image'
-import photoSurf from '@/images/photos/IMG_8003.jpg'
+import photoSurf from '@/images/photos/IMG_8003.webp'
 import { ArrowUturnLeftIcon } from '@heroicons/react/24/outline'
 
 
@@ -16,7 +16,7 @@ export default function ThankYou() {
         <title>Message envoyé | FC Productions</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <meta name='robots' content='noindex, nofollow' />
-        <meta name="image" property="og:image" content="http://fcproductions.fr/large-og.png" />
+        <meta name="image" property="og:image" content="https://fcproductions.fr/large-og.png" />
         <meta
           name="description"
           content="Merci pour votre envoi."
